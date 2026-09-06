@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.neil.voidtrade.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AbstractVillagerMixin"
+	],
+	"client": [],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
