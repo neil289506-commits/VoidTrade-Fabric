@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "voidtrade",
+	"version": "${version}",
+	"name": "VoidTrade",
+	"description": "Reverses Minecraft bug MC-50614 (villager trading window closing when the villager leaves interaction range), restoring pre-fix behavior. Only the interaction-range condition is touched — no other 1.21.4 villager/merchant behavior is changed.",
+	"authors": [
+		"Neil"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/voidtrade/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.neil.voidtrade.VoidTrade"
+		]
+	},
+	"mixins": [
+		"voidtrade.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.7",
+		"java": ">=21"
+	}
+}
+
+
